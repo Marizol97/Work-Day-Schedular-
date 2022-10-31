@@ -1,3 +1,8 @@
+*:root {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -68,4 +73,49 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+}
+
+.image {
+  width: 75%;
+  margin-left: 9%;
+}
+
+.image-box {
+  width: 7%;
+  background-color: blue;
+
+}
+
+.event {
+  width: 95%;
+  height: 55px;
+}
+
+
+
+
+#time-box {
+  width:15%;
+  height: 60px;
+  border: #000000;
+  border-width: 1px;
+}
+
+.past {
+  background-color: grey;
+}
+
+.present {
+  background-color: cyan,
+}
+
+.future {
+  background-color: rgb(231, 210, 210);
 }
